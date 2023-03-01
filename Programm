@@ -8,7 +8,7 @@ int x;
 float y;
 printf ("Введите x\n");
 scanf (%d, &x);
-y=sqrt(x)+10;
+y=(sqrt(x)+10)*2;
 printf("y=%f, y");
 getchar();
 }
