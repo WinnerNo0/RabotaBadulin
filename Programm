@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <locale.h>
+#include <match.h>
+main()
+{
+setlocale (0, "Russian");
+int x;
+float y;
+printf ("Введите x\n");
+scanf (%d, &x);
+y=sqrt(x)+10;
+printf("y=%f, y");
+getchar();
+}
